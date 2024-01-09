@@ -2,26 +2,43 @@ package ReviewSpecial1;
 
 class KeisanJihanki {
     public static void main(String[] args) {
-       
-        char mojis[] = {'c','a','c','b','c','c','c','d'};
-        int mojislen = 8;
 
-        char targetMoji = 'c';
-
-        int kazu = searchChar(mojis, mojislen, targetMoji);
-
-        System.out.println("文字型" + targetMoji + "は" + kazu +"個ありました。");
-
+        int entryMoney = 160;
+        kounyu(entryMoney);
     }
 
-    private static int searchChar(char[] chars, int charslen, char searchChar) {
+    private static void kounyu(int entryCoin) {
 
-        int charCount = 0;
-        for (int i = 0; i < charslen; i++) {
-            if (chars[i] == searchChar) {
-                charCount++;
-            }
+        if (entryCoin < 160) {
+            System.out.println("金額が足りません");
+
+        } else if (entryCoin == 160) {
+            System.out.println("ドリンクが購入できました【お釣りなし】");
+
+        } else {
+
+            int otsuri = entryCoin - 160;
+            System.out.println("ドリンクが購入できました【お釣りあり】");
+            System.out.println("お釣りは" + otsuri + "円になります");
+
         }
-        return charCount;
+    }
+
+    private static void returnCoin(int otsuri) {
+
+        int coinKinds[] = { 500, 100, 50, 10 };
+        int sum = otsuri;
+        int maisu = 0;
+
+        for (int i = 0; i < coinKinds.length; i++) {
+
+
+                
+            
+
+
+
+        }
+
     }
 }

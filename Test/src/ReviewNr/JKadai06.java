@@ -13,6 +13,7 @@ class JKadai06 {
 
     }
 
+    
     private static String monthWamei(int month) {
 
         String result = "";
