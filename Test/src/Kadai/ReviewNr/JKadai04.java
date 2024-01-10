@@ -1,5 +1,4 @@
 package ReviewNr;
-
 class JKadai04 {
     public static void main(String[] args) {
 
