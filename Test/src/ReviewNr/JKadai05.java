@@ -6,22 +6,23 @@ class JKadai05 {
         int even = 12;
         int odd = 7;
 
-        if (even % 2 == 0) {
-            System.out.println(even + "は" + checkEvenCheck(even) + "です。");
-        }
-
-        if (odd % 2 != 0) {
-            System.out.println(odd + "は" + checkEvenCheck(odd) + "です。");
-        }
+        System.out.println(even + "は" + checkEvenCheck(even) + "です。");
+        System.out.println(odd + "は" + checkEvenCheck(odd) + "です。");
 
     }
 
+    /*
+     * 引数numを2で割ったとき
+     * 余りが0 == 偶数
+     * それ以外 == 奇数
+     * ※04と違い、戻りはString型！！
+     */
     private static String checkEvenCheck(int num) {
 
         if (num % 2 == 0) {
 
             return "偶数";
-            
+
         }
         return "奇数";
     }

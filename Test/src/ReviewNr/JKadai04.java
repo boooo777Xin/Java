@@ -15,7 +15,12 @@ class JKadai04 {
         }
 
     }
-    
+
+    /*
+     * 引数numを2で割ったとき
+     * 余りが0 == 偶数
+     * それ以外 == 奇数
+     */
     private static boolean isEvenCheck(int num) {
         if (num % 2 == 0) {
             return true;
