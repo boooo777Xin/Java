@@ -1,7 +1,7 @@
 class StaticClasses {
     static class Inner1 {
         static final String greet = "こんにちは";
-        static void sayHello() {
+        void sayHello() {
             System.out.println(greet);
         }
     }
