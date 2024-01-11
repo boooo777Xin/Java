@@ -3,15 +3,15 @@ class Car {
     String type;
     int price;
 
-    Car(){
+    Car() {
         maker = "IVY";
         type = "4駆動";
         price = 100;
     }
 
-    void spec(){
-        System.out.println("メーカー:"+maker);
-        System.out.println("タイプ:"+type);
-        System.out.println("値段:"+price+"万");
+    void spec() {
+        System.out.println("メーカー:" + maker);
+        System.out.println("タイプ:" + type);
+        System.out.println("値段:" + price + "万");
     }
 }

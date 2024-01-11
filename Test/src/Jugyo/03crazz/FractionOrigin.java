@@ -7,7 +7,7 @@ class FractionOrigin {
         denominator = 1;
     }
 
-    FractionOrigin(int n,int d) {
+    FractionOrigin(int n, int d) {
         numerator = n;
         denominator = d;
     }

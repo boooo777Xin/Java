@@ -1,4 +1,4 @@
-class userCheck {
+class UserCheck {
     static final String userID = "ivy"; // ユーザーID
     static final String userPW = "12345"; // パスワード 
     public static void main(String args[]) {

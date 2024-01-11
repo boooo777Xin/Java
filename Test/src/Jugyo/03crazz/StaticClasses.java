@@ -8,6 +8,7 @@ class StaticClasses {
 
     class Inner2 {
         String greet = "Hello";
+        
         void sayHello() {
             System.out.println(greet);
         }

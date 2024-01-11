@@ -1,6 +1,6 @@
 import java.util.Random;
 
-class todayOmikuji {
+class TodayOmikuji {
   public static void main(String[] args) {
     omikuji();
   }

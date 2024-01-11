@@ -4,10 +4,10 @@ class Fraction2 extends FractionOrigin {
         super();
     }
 
-    Fraction2(int n,int d) {
+    Fraction2(int n, int d) {
         super(n, d);
-    }    
-    
+    }
+
     void add(Fraction2 f) {
         numerator = numerator * f.denominator + denominator * f.numerator;
         denominator = denominator * f.denominator;
