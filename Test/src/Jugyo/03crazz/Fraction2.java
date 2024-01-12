@@ -1,4 +1,4 @@
-class Fraction2 extends FractionOrigin {
+class Fraction2 extends Fraction {
 
     Fraction2() {
         super();

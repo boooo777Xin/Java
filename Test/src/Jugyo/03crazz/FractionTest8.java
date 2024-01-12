@@ -6,5 +6,8 @@ class FractionTest8 {
         f.denominator = 2;
 
         System.out.println("f=" + f);
+
+        Fraction2 f2 = new Fraction2(2,3);
+        System.out.println(f2);
     }
 }
