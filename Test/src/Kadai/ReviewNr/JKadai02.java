@@ -1,4 +1,4 @@
-package Kadai.ReviewNr;
+package ReviewNr;
 
 class JKadai02 {
     public static void main(String[] args) {
