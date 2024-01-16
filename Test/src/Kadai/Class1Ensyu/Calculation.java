@@ -20,21 +20,25 @@ public class Calculation {
 
     // 足し算
     void plus(int x) {
+        // num = num + x
         num += x;
     }
 
     // 引き算
     void minus(int x) {
+        // num = num - x
         num -= x;
     }
 
     // 掛け算
     void multiplied(int x) {
+        // num = num * x
         num *= x;
     }
 
     // 割り算
     void division(int x) {
+        // num = num / x
         num /= x;
     }
 }

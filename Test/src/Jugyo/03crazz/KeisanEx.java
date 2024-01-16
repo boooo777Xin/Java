@@ -1,14 +1,8 @@
 class KeisanEx {
     public static void main(String[] args) {
         Calculation cal = new Calculation();
-
-        StaticClasses nClasses = new StaticClasses();
-
-        nClasses.greet = "Hello";
-
-        String n = nClasses.greet;
-
-         StaticClasses.sayHello();;
+        StaticClasses.greet = "Hello";
+        StaticClasses.sayHello();
 
         // 足し算
         cal.plus(10);

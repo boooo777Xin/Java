@@ -1,11 +1,15 @@
 package Class1Kadai;
 
-public class CarNew  extends Car{
-    
+//Carクラスを継承
+public class CarNew extends Car {
+
     CarNew() {
 
+        // Carクラスのコンストラクタを継承
         super();
-        this.type= "2WD";
+
+        // 継承しているCarクラスの変数を、CarNew用に更新
+        this.type = "2WD";
         this.price = 80;
 
     }

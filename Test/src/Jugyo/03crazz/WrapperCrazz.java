@@ -1,4 +1,3 @@
-import java.text.DecimalFormat;
 
 public class WrapperCrazz {
 
@@ -7,8 +6,6 @@ public class WrapperCrazz {
         int i = 1;
         Integer wrapInteger = Integer.valueOf(i);
         System.out.println(i + wrapInteger);
-
-        DecimalFormat f1 = new DecimalFormat();
 
     }
 

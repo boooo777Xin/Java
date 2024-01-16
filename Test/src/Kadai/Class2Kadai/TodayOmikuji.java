@@ -21,13 +21,13 @@ public class TodayOmikuji {
                 message = "【中吉】\n 一言:あと一歩でしょう";
                 break;
             case 2:
-                message = "【小吉】\n 一言:思いがけないへそくりが出てくるでしょう";
+                message = "【小吉】\n 一言:ちょっぴりいいでしょう";
                 break;
             case 3:
-                message = "【吉】\n 一言:平凡";
+                message = "【吉】\n 一言:平凡です";
                 break;
             case 4:
-                message = "【末吉】\n 一言:ちょっぴりいいでしょう";
+                message = "【末吉】\n 一言:うーん微妙";
                 break;
             case 5:
                 message = "【凶】\n 一言:外に出ない方がいいでしょう";
@@ -36,7 +36,7 @@ public class TodayOmikuji {
                 message = "【大凶】\n 一言:ヌルぽ,ガッ!!!";
                 break;
             default:
-                message = "げれげれ";
+                message = "hoge";
                 break;
         }
         System.out.println(message);
