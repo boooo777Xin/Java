@@ -16,12 +16,7 @@ public class StringMethods2 {
 
         String str = null;
         System.out.print(str + "は");
-        // Objects.nonNull(A)でも可能
-        if (str != null) {
-            System.out.println("nullではない");
-        } else {
-            System.out.println("nullです");
-        }
+        System.out.println("nullです");
 
         /*
          * メソッド：String型.indexOf(String A)
