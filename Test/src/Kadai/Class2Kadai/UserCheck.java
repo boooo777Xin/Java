@@ -35,8 +35,8 @@ class UserCheck {
      * ①②の両方が一致していればＯＫ、でなければＮＧ
      */
     static String checkUserInfo1(String iptId, int iptPw) {
-        String ret = "";
-        ret = "ユーザー情報が一致";
+
+        String ret = "ユーザー情報が一致";
 
         if (iptId.equals(USER_ID) && (Integer.toString(iptPw).equals(USER_PW))) {
             ret += "しました";

@@ -1,5 +1,4 @@
 package Class2Kadai;
-
 import java.util.Random;
 
 public class TodayOmikuji {
