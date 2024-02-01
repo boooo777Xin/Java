@@ -41,6 +41,7 @@ class miniTest01 {
 		} else {
 			tentou = "信号無視";
 		}
+
 		return tentou;
 	}
 }
