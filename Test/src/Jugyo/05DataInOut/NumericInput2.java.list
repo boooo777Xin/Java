@@ -1,0 +1,12 @@
+1: import java.util.Scanner;
+2: 
+3: class NumericInput2 {
+4:     public static void main(String args[]) {
+5:         Scanner sin = new Scanner(System.in);
+6:         System.out.print("税別価格： ");
+7:         int price = sin.nextInt();
+8:         System.out.print("税    率： ");
+9:         double taxRate = sin.nextDouble();
+10:         System.out.println("税込み価格は " + price * (1+taxRate) + "円です。");
+11:     }
+12: }

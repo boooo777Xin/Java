@@ -4,12 +4,7 @@ import java.io.FileNotFoundException;
 
 class ExceptionDemo1 {
     public static void main(String args[]) {
-        try {
-            FileReader fr = new FileReader("ExceptionDemo2.java");
-        } catch (FileNotFoundException e) {
-            System.out.println("ファイルが見つかりません");
-        }
-        /* この行は書かなくてよいです。
+
         Scanner sc = null;
         FileReader fr = null;
         try {
@@ -29,6 +24,6 @@ class ExceptionDemo1 {
                 System.out.println("I/Oエラーが発生しました");
             }
         }
-        */
+      
     }
 }

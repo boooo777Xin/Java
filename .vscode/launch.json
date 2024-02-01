@@ -1,0 +1,398 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "miniTest03",
+            "request": "launch",
+            "mainClass": "Test0201.miniTest03",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "miniTest02",
+            "request": "launch",
+            "mainClass": "Test0201.miniTest02",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "miniTest01",
+            "request": "launch",
+            "mainClass": "Test0201.miniTest01",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "PrintList1",
+            "request": "launch",
+            "mainClass": "PrintList1",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "HelloName",
+            "request": "launch",
+            "mainClass": "HelloName",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "FileByType",
+            "request": "launch",
+            "mainClass": "FileByType",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Aisatsu",
+            "request": "launch",
+            "mainClass": "Aisatsu",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "CarShow",
+            "request": "launch",
+            "mainClass": "CarShow",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "Keisan",
+            "request": "launch",
+            "mainClass": "Class1Ensyu.Keisan",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "KeisanEx",
+            "request": "launch",
+            "mainClass": "Class1Ensyu.KeisanEx",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "CarShow(1)",
+            "request": "launch",
+            "mainClass": "Class1Kadai.CarShow",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "MoreMethods",
+            "request": "launch",
+            "mainClass": "Class2Ensyu.MoreMethods",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "StringMethods",
+            "request": "launch",
+            "mainClass": "Class2Ensyu.StringMethods",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "StringMethods2",
+            "request": "launch",
+            "mainClass": "Class2Ensyu.StringMethods2",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "TodayOmikuji",
+            "request": "launch",
+            "mainClass": "Class2Kadai.TodayOmikuji",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "UserCheck",
+            "request": "launch",
+            "mainClass": "Class2Kadai.UserCheck",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "Aisatsu(1)",
+            "request": "launch",
+            "mainClass": "ClassHard1.Aisatsu",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "IsAmariCheck",
+            "request": "launch",
+            "mainClass": "ClassHard1.IsAmariCheck",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "DivideByZero",
+            "request": "launch",
+            "mainClass": "ExceptionEnsyu.DivideByZero",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "DivideByZeroErr",
+            "request": "launch",
+            "mainClass": "ExceptionEnsyu.DivideByZeroErr",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "DivideByZeroMsg",
+            "request": "launch",
+            "mainClass": "ExceptionEnsyu.DivideByZeroMsg",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "DivideByZeroThrows",
+            "request": "launch",
+            "mainClass": "ExceptionEnsyu.DivideByZeroThrows",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "FractionTest1",
+            "request": "launch",
+            "mainClass": "FractionTest1",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "FractionTest10",
+            "request": "launch",
+            "mainClass": "FractionTest10",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "FractionTest11",
+            "request": "launch",
+            "mainClass": "FractionTest11",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "FractionTest3",
+            "request": "launch",
+            "mainClass": "FractionTest3",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "FractionTest4",
+            "request": "launch",
+            "mainClass": "FractionTest4",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "FractionTest5",
+            "request": "launch",
+            "mainClass": "FractionTest5",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "FractionTest6",
+            "request": "launch",
+            "mainClass": "FractionTest6",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "FractionTest8",
+            "request": "launch",
+            "mainClass": "FractionTest8",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "FractionTest9",
+            "request": "launch",
+            "mainClass": "FractionTest9",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "IsAmariCheck(1)",
+            "request": "launch",
+            "mainClass": "IsAmariCheck",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "Keisan(1)",
+            "request": "launch",
+            "mainClass": "Keisan",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "KeisanEx(1)",
+            "request": "launch",
+            "mainClass": "KeisanEx",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "JKadai07",
+            "request": "launch",
+            "mainClass": "ReviewHard.JKadai07",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "JKadai08",
+            "request": "launch",
+            "mainClass": "ReviewHard.JKadai08",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "JKadai09",
+            "request": "launch",
+            "mainClass": "ReviewHard.JKadai09",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "JKadai10",
+            "request": "launch",
+            "mainClass": "ReviewHard.JKadai10",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "JKadai01",
+            "request": "launch",
+            "mainClass": "ReviewNr.JKadai01",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "JKadai02",
+            "request": "launch",
+            "mainClass": "ReviewNr.JKadai02",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "JKadai03",
+            "request": "launch",
+            "mainClass": "ReviewNr.JKadai03",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "JKadai04",
+            "request": "launch",
+            "mainClass": "ReviewNr.JKadai04",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "JKadai05",
+            "request": "launch",
+            "mainClass": "ReviewNr.JKadai05",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "JKadai06",
+            "request": "launch",
+            "mainClass": "ReviewNr.JKadai06",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "KeisanJihanki",
+            "request": "launch",
+            "mainClass": "ReviewSpecial1.KeisanJihanki",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "StringKetugou",
+            "request": "launch",
+            "mainClass": "StringKetugou",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "StringObjectTest",
+            "request": "launch",
+            "mainClass": "StringObjectTest",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "TodayOmikuji(1)",
+            "request": "launch",
+            "mainClass": "TodayOmikuji",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "TodayUranai",
+            "request": "launch",
+            "mainClass": "TodayUranai",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "UserCheck(1)",
+            "request": "launch",
+            "mainClass": "UserCheck",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "WrapperCrazz",
+            "request": "launch",
+            "mainClass": "WrapperCrazz",
+            "projectName": "JavaPro_295eb3b3"
+        }
+    ]
+}
