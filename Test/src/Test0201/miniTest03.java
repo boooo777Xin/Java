@@ -7,7 +7,10 @@ class miniTest03 {
 	public static void main(String[] args) {
 		// 文字の分割
 		String str = "白菜,長ネギ,肉,ニンジン,エノキ,肉,豆腐,しらたき,つみれ";
+
+		//String.split(",")で","区切りに配列にする。
 		String[] guzai = str.split(",");
+		
 		// 肉を探す
 		String search = "肉";
 		int count = 0;
