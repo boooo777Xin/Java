@@ -24,11 +24,13 @@ class miniTest03 {
 		System.out.println(search + "は" + count + "つありました");
 
 		// ランダムに食材をとんすい(お皿)に入れる
+		int get1 = 0;
+		int get2 = 0;
+
 		Random rnd = new Random();
 		int guzaiNum = guzai.length;
-		//nextIntの中身は9
-		int get1 = rnd.nextInt(guzaiNum);
-		int get2 = rnd.nextInt(guzaiNum);
+		get1 = rnd.nextInt(guzaiNum);
+		get2 = rnd.nextInt(guzaiNum);
 
 		// 重複しないようにする(ここは採点対象外)
 		while (guzai[get1].equals(guzai[get2])) {

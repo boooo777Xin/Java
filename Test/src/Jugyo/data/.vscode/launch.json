@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MoneyCountList",
+            "request": "launch",
+            "mainClass": "MoneyCountList",
+            "projectName": "data_fc9d2ed3"
+        },
+        {
+            "type": "java",
+            "name": "MojiAwase",
+            "request": "launch",
+            "mainClass": "MojiAwase",
+            "projectName": "data_fc9d2ed3"
+        },
+        {
+            "type": "java",
+            "name": "MoneyCount",
+            "request": "launch",
+            "mainClass": "MoneyCount",
+            "projectName": "data_fc9d2ed3"
+        },
+        {
+            "type": "java",
             "name": "URLtest",
             "request": "launch",
             "mainClass": "URLtest",
