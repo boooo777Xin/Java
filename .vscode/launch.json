@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TicketOffice",
+            "request": "launch",
+            "mainClass": "TicketOffice",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "MultiThreadTest3",
+            "request": "launch",
+            "mainClass": "MultiThreadTest3",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "MultiThreadTest",
+            "request": "launch",
+            "mainClass": "MultiThreadTest",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "SingleThreadTest",
+            "request": "launch",
+            "mainClass": "SingleThreadTest",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
             "name": "MoneyCount",
             "request": "launch",
             "mainClass": "MoneyCount",
