@@ -47,4 +47,14 @@ public class MoneyCountList {
      * 
      */
 
+    /*
+     * Map<任意型1,任意型2>
+     * 概要：任意型1/key , 任意型2/valueとして持つ
+     * ◇代表メソッド
+     * ・map型変数.put(i,j):iをkey,jをvalueとしてmapに追加
+     * ・map型変数.get(i):iとkeyが一致するvalueを取り出す
+     * ・map型変数.remove(i):iと一致する要素を削除
+     * 
+     */
+
 }
