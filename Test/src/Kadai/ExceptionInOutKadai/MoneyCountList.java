@@ -1,23 +1,21 @@
 import java.util.*;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
 
 public class MoneyCountList {
 
+    /*
+     * MoneyInputを少し高度に書いたVersion
+     */
     public static void main(String[] args) {
 
         System.out.print("金額を入力して下さい -> ");
         try {
-
             Scanner sin = new Scanner(System.in);
             Integer inputMoney = sin.nextInt();
             MoneyCountList.moneyOutput(inputMoney);
             sin.close();
-
         } catch (InputMismatchException e) {
             System.out.println("数字以外が入力されています");
         }
-
     }
 
     public static void moneyOutput(Integer price) {
