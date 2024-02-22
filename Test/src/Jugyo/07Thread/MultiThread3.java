@@ -7,13 +7,12 @@ class MultiThread3 implements Runnable {
 
     @Override
     public void run() {
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("No. " + i + " : " +
-                    Thread.currentThread().getName());
+        for (int i = 0; i < 5; i++) {
+            System.out.println("No. " + i + " : " + 
+                                Thread.currentThread().getName());
             try {
                 Thread.sleep(time);
-            } catch (InterruptedException e) {
-            }
+            } catch (InterruptedException e) {}
         }
     }
 }

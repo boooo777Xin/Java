@@ -6,16 +6,37 @@
     "configurations": [
         {
             "type": "java",
-            "name": "TicketOffice",
+            "name": "soTest02",
             "request": "launch",
-            "mainClass": "TicketOffice",
+            "mainClass": "soTest02",
             "projectName": "JavaPro_295eb3b3"
         },
         {
             "type": "java",
-            "name": "MultiThreadTest3",
+            "name": "soTest03",
             "request": "launch",
-            "mainClass": "MultiThreadTest3",
+            "mainClass": "soTest03",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "SoTest03",
+            "request": "launch",
+            "mainClass": "SoTest03",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "SoTest01",
+            "request": "launch",
+            "mainClass": "SoTest01",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "SoTest02",
+            "request": "launch",
+            "mainClass": "SoTest02",
             "projectName": "JavaPro_295eb3b3"
         },
         {
@@ -27,9 +48,23 @@
         },
         {
             "type": "java",
-            "name": "SingleThreadTest",
+            "name": "ReFanChecker",
             "request": "launch",
-            "mainClass": "SingleThreadTest",
+            "mainClass": "ReFanChecker",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "FanChecker",
+            "request": "launch",
+            "mainClass": "FanChecker",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "miniTestTsuishi",
+            "request": "launch",
+            "mainClass": "Test0201.miniTestTsuishi",
             "projectName": "JavaPro_295eb3b3"
         },
         {

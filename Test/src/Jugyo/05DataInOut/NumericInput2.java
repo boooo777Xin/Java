@@ -8,5 +8,6 @@ class NumericInput2 {
         System.out.print("税    率： ");
         double taxRate = sin.nextDouble();
         System.out.println("税込み価格は " + price * (1 + taxRate) + "円です。");
+        sin.close();
     }
 }
