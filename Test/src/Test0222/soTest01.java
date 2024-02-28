@@ -6,29 +6,30 @@ public class soTest01 {
 
         hougaku(minami);
         hougaku(doko);
+
     }
 
     // 数字によって、方角を表示します
     static void hougaku(int num) {
-
-        String hougaku;
+        String result = "";
         switch (num) {
             case 0:
-                hougaku = "東";
+                result = "東";
                 break;
             case 1:
-                hougaku = "東";
+                result = "西";
                 break;
             case 2:
-                hougaku = "東";
+                result = "南";
                 break;
             case 3:
-                hougaku = "東";
+                result = "北";
                 break;
             default:
-                hougaku = "迷子";
+                result = "迷子";
                 break;
         }
-        System.out.println(num + "は" + hougaku);
+
+        System.out.println(num + "は" + result);
     }
 }

@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StudentDataInput",
+            "request": "launch",
+            "mainClass": "StudentDataInput",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "miniTest03ListVer",
+            "request": "launch",
+            "mainClass": "miniTest03ListVer",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
+            "name": "MapExample01",
+            "request": "launch",
+            "mainClass": "MapExample01",
+            "projectName": "JavaPro_295eb3b3"
+        },
+        {
+            "type": "java",
             "name": "soTest02",
             "request": "launch",
             "mainClass": "soTest02",

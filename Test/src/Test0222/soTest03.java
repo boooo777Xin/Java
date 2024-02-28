@@ -1,6 +1,4 @@
-import java.awt.Container;
-import java.awt.BorderLayout;
-import java.awt.FlowLayout;
+import java.awt.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextField;
@@ -32,13 +30,11 @@ class soTest03 extends JFrame implements ActionListener {
         // 部品を準備する
         conPane = getContentPane(); // コンテナ
         JPanel p = new JPanel(); // パネル
-
         // 入力欄とラベル
         JLabel labelName = new JLabel("ユーザー名");
         JLabel labelPw = new JLabel("パスワード");
         txtName = new JTextField("", 20);
         txtPw = new JTextField("", 20);
-
         // ボタン
         btn = new JButton("認証");
         btn.addActionListener(this);
@@ -68,11 +64,11 @@ class soTest03 extends JFrame implements ActionListener {
             String pwd = txtPw.getText();
 
             // 未入力チェック(★ボーナス１０点)
-            if (name.isEmpty()) {
+            if (name == null || name.isEmpty()) {
                 label.setText("ユーザー名を入力してください");
                 return;
             }
-            if (pwd.isEmpty()) {
+            if (pwd == null || pwd.isEmpty()) {
                 label.setText("パスワードを入力してください");
                 return;
             }

@@ -4,11 +4,17 @@ class ExceptionDemo {
     public static void main(String args[]) {
 
         try {
-            FileReader fr = new FileReader("ExceptionDemo.java");
+            try (FileReader fr = new FileReader("ExceptionDemo.java")) {
+            } catch (FileNotFoundException e) {
+                throw e;
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
-           System.out.println("era-desu");
-        } finally{
+            System.out.println("era-desu");
+        } finally {
             System.out.println("さいご");
         }
 
